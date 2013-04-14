@@ -1,0 +1,67 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thebucketlist"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Question"
+            android:label="@string/title_activity_question" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.thebucketlist.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Jackpage"
+            android:label="@string/title_activity_jackpage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.thebucketlist.Question" />
+        </activity>
+        <activity
+            android:name=".Beanpage"
+            android:label="@string/title_activity_beanpage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.thebucketlist.Question" />
+        </activity>
+        <activity
+            android:name=".End"
+            android:label="BEHOLD THE BUCKET LIST SPEAKS" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.thebucketlist.Question" />
+        </activity>
+        <activity
+            android:name=".End2"
+            android:label="BEHOLD THE BUCKET LIST SPEAKS" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.thebucketlist.Question" />
+        </activity>
+        <activity
+            android:name=".End3"
+            android:label="@string/title_activity_end3" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.thebucketlist.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

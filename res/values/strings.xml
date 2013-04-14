@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">TheBucketList</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">The Bucket List</string>
+    <string name="title_activity_question">Who do you identify with?</string>
+    <string name="title_activity_jackpage">For the Capt. Jack Sparrow in you</string>
+    <string name="title_activity_beanpage">Beanpage</string>
+    <string name="title_activity_end">BEHOLD I SPEAK..</string>
+    <string name="title_activity_end2">BEHOLD THE BUCKT LIST SPEAKS..</string>
+    <string name="title_activity_end3">End3</string>
+
+</resources>

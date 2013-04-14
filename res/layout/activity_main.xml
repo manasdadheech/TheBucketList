@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sm"
+    android:gravity="bottom"
+    tools:ignore="HardcodedText" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="THE BUCKET LIST"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/scare"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="34dp"
+        android:text="HI! i am THE BUCKET LIST.I&apos;ll be the authority to decide if you can be laid to rest NOW?"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/bucketimg"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignRight="@+id/scare"
+        android:layout_below="@+id/title"
+        android:layout_marginRight="37dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/buc" />
+
+    <AnalogClock
+        android:id="@+id/analogClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/scare"
+        android:layout_below="@+id/scare" />
+
+    <ImageButton
+        android:id="@+id/bucket"
+        style="@style/AppTheme"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/analogClock1"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/scare"
+        android:padding="0dp"
+        android:paddingBottom="3dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/a" />
+
+</RelativeLayout>
